@@ -4,21 +4,27 @@
     {
       "id": "neurai-lilygot3-s3",
       "name": "NeuraiWallet-LilygoT3-S3",
-      "version": "0.1.0-202606-0034",
-      "released_at": "2026-06-25",
-      "chips": ["esp32s3"],
+      "version": "0.1.0-202609-0008",
+      "released_at": "2026-09-10",
+      "chips": [
+        "esp32s3"
+      ],
       "flash_size": "16MB",
       "images": [
         {
           "offset": "0x0",
-          "file": "neurai-thw-s3-v0.1.0-202606-0034-production-merged.bin",
-          "sha256": "42abbd6044d0404d64674b53c23f9f46bf900e8575a4acb8210d39709f145a01",
-          "url": "https://github.com/NeuraiProject/NeuraiHW/releases/download/bin/neurai-thw-s3-v0.1.0-202606-0034-production-merged.bin"
+          "file": "neurai-thw-s3-v0.1.0-202609-0008-production-merged.bin",
+          "sha256": "935e7eed2d9c263710d5392dc39d98c871a10c6405b99f3c46a50b5dc842da1f",
+          "url": "https://github.com/NeuraiProject/NeuraiHW/releases/download/bin/neurai-thw-s3-v0.1.0-202609-0008-production-merged.bin"
         }
       ],
       "erase_before_flash": false,
       "preserve_regions": [
-        { "offset": "0x9000", "size": "0x5000", "label": "nvs" }
+        {
+          "offset": "0x9000",
+          "size": "0x5000",
+          "label": "nvs"
+        }
       ],
       "notes": "Neurai hardware wallet firmware for LilyGO T-Display S3. Updating preserves your encrypted seed."
     }
