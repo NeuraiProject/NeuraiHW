@@ -4,8 +4,8 @@
     {
       "id": "neurai-lilygot3-s3",
       "name": "NeuraiWallet-LilygoT3-S3",
-      "version": "0.1.0-202609-0008",
-      "released_at": "2026-09-10",
+      "version": "0.2.0-202609-0010",
+      "released_at": "2026-09-11",
       "chips": [
         "esp32s3"
       ],
@@ -13,9 +13,9 @@
       "images": [
         {
           "offset": "0x0",
-          "file": "neurai-thw-s3-v0.1.0-202609-0008-production-merged.bin",
-          "sha256": "935e7eed2d9c263710d5392dc39d98c871a10c6405b99f3c46a50b5dc842da1f",
-          "url": "https://github.com/NeuraiProject/NeuraiHW/releases/download/bin/neurai-thw-s3-v0.1.0-202609-0008-production-merged.bin"
+          "file": "neurai-thw-s3-v0.2.0-202609-0010-production-merged.bin",
+          "sha256": "383315d9841e886ab11f9037aae811191e60cbcd882bf1272c393a56023f0ce1",
+          "url": "https://github.com/NeuraiProject/NeuraiHW/releases/download/bin/neurai-thw-s3-v0.2.0-202609-0010-production-merged.bin"
         }
       ],
       "erase_before_flash": false,
